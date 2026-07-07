@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelAI Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body style="display:flex;justify-content:center;align-items:center;height:100vh;background:#08111f;">
+
+<div style="
+width:380px;
+padding:40px;
+background:#111827;
+border-radius:18px;
+box-shadow:0 0 25px rgba(0,255,255,.15);
+">
+
+<h2 style="text-align:center;color:#22d3ee;">SentinelAI Login</h2>
+
+<form action="/" method="get">
+
+<input
+type="text"
+placeholder="Username"
+required
+style="width:100%;padding:12px;margin-top:20px;border-radius:8px;border:none;"
+>
+
+<input
+type="password"
+placeholder="Password"
+required
+style="width:100%;padding:12px;margin-top:15px;border-radius:8px;border:none;"
+>
+
+<button
+type="submit"
+style="width:100%;padding:12px;margin-top:20px;background:#22d3ee;border:none;border-radius:8px;font-weight:bold;cursor:pointer;"
+>
+Login
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
